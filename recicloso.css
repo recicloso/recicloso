@@ -566,7 +566,7 @@ float: left;
 .ambiental{
 width: 40%;
 height: 300px;
-padding-top: 110px;
+padding-top: 170px;
 margin-left: 15%;
 color: white;
 font-size: 18px;
@@ -939,6 +939,13 @@ margin-top: -70px;
  .cua0, .cua1, .cua2, .cua3, .cua4, .cua5{
   font-size: 17px;
  }
+ .impactado{
+margin-top: 16%;
+ }   
+ .ambiental{
+margin-left: 5%;
+width: 50%;
+}
  .marcas img{
   width: 70%;
   }
@@ -974,7 +981,7 @@ margin-top: -75px;
   }
 
 .impactado{
-margin-top: 10%;
+margin-top: 20%;
  }
   #chez img{
   width: 70%;
@@ -1007,7 +1014,9 @@ width: 76%;
   font-size: 12px;
  }
 .impactado{
-margin-top: 12%;
+
+margin-top: 30%;
+
  }   
  .ambiental{
 font-size: 15px;
@@ -1276,7 +1285,13 @@ margin-left: 4px;
    font-size: 12px;
   } 
 
+.impactado{
+margin-top:-630px;
 
+}
+.ambiental{
+margin-top: 100px;
+}
 .loquiero{
   width: 45%;
    margin-top: 62%;
@@ -1298,13 +1313,16 @@ margin-left: 4px;
 /*///////////////////////////////////////////400/////////////*/
   @media (max-width:400px){ 
 
+
 .impactado{
-margin-top:-620px;
+margin-top:-6606px;
 
 }
 .ambiental{
-margin-top: 90px;
+margin-top: 80px;
 }
+
+
 
 
 .circo, .circo2{
