@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+         <title>RECICLOSO | Plataforma de Innovación Circular y Cultura Ambiental</title>
+
+         <link rel="shortcut icon" type="image/x-icon" href= "cursor/recicloso.ico"/>
+         <link rel="shortcut icon" type="image/vnd.microsoft.icon" href= "cursor/recicloso.ico"/>
+         <link rel="stylesheet" href="recicloso.css"/>
+         <link rel="preconnect" href="https://fonts.googleapis.com">
+         
+          <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+          <link href="ubicacion.html" rel="stylesheet">
+
+         <script src="https://kit.fontawesome.com/68d530161c.js" crossorigin="anonymous"></script>
+         <meta name="viewport" content="initial-scale=1, maximun-scale=1">
+  </head>
+  
+
+<header id="mainHeader">
+  
+ <div class="botones0" >           <!-- :::::grid botones:::::::::--> 
+
+    <!-- :::::EN TODO LO LARGO:::::::::--> 
+
+          <div class="lab"> 
+            <button class="lab1">
+              <h5> <MARQUee scrollamount="5" DIRECTION="loop"> ° + Plataforma de Innovación Circular y Cultura Ambiental + °  
+
+</MARQUee></H5>
+                    </button>
+          </div> 
+<div class="name">
+
+          <div class="recicloso">            
+
+                <div class="reci0">
+                   <a href="index.html">
+                  <button class="btn0"><img align="left" src="m/recicloso22.png"/></button></a> 
+                </div>
+
+                <div class="reci3">
+                  <a href="#"><button  class="btn3">
+                    <i  id="bajar1px" class="fa-solid fa-cart-shopping"></i>
+                  </button></a> 
+                </div>
+
+                <div class="reci3">
+                <button  class="menu">
+                     <label for="btn-menu"> <i   class="fa-solid fa-bars"></i></label>
+                  </button>
+
+<input type="checkbox" id="btn-menu">
+              <div class="container-menu">
+                <div class="cont-menu">
+                      <nav>
+                            <a href="acerca.html">Acerca</a> 
+                            <a href="contenedores.html">Contenedores</a> 
+                            <a href="talleres.html">Talleres </a> 
+                            <a href="activaciones.html">Activaciones </a> 
+                            <a href="plastico.html">Plástico reciclado</a> 
+                             <a href="especiales.html">Encargos especiales</a> 
+                            <a href="www.recicloso.com">Productos en venta</a> 
+                            <a href="ubicacion.html">Encuentranos</a> 
+                            <a href="calendar.html">Próximos eventos</a> 
+                             <a href= "https://wa.me/51950306158?text=Hola! te contacto desde la web Recicloso, deseo info :3" target="_blank">Contáctanos</a>                                                  
+                                                    </nav>
+                  <label for="btn-menu" ><i class="fas fa-times"></i></label>
+                </div>
+              </div>
+                </div>
+
+           </DIV><!-- :::::cierra recicloso.::::::::-->   
+       </DIV><!-- :::::cierra name::::::::-->   
+      </div><!-- :::::cierra botones::::::::--> 
+</div>
+    </header><!-- :::::FIIIIIIIIIIIIIN HEADER::::::::--> 
+
+    
+      <body>
+
+        <div class="slidero">
+          
+ <section class="container">
+
+        <div class="slider-wrapper">
+
+            <div class="slider" id="slider">
+
+                <img id="slide-1" src="m/oso.gif" />
+                <img id="slide-2" src="m/viruta2.gif" />
+                <img id="slide-3" src="m/gestar.png" />
+
+            </div>
+
+            <div class="velo"></div>
+
+            <div class="slider-nav">
+                   <button data-slide="0"></button>
+                    <button data-slide="1"></button>
+                    <button data-slide="2"></button>
+            </div>
+
+        </div>
+
+    </section>
+
+<script>
+
+const slider = document.getElementById("slider");
+const botones = document.querySelectorAll(".slider-nav button");
+
+let index = 0;
+let autoSlide;
+
+/* función principal */
+function moverSlider(i){
+
+    index = i;
+
+    slider.scrollTo({
+        left: slider.clientWidth * index,
+        behavior: "smooth"
+    });
+
+}
+
+/* autoplay */
+function iniciarSlider(){
+
+    autoSlide = setInterval(() => {
+
+        index++;
+
+        if(index > 2){
+            index = 0;
+        }
+
+        moverSlider(index);
+
+    }, 6000);
+
+}
+
+/* iniciar autoplay */
+iniciarSlider();
+
+/* botones */
+botones.forEach((boton) => {
+
+    boton.addEventListener("click", () => {
+
+        clearInterval(autoSlide);
+
+        moverSlider(parseInt(boton.dataset.slide));
+
+        iniciarSlider();
+
+    });
+
+});
+
+</script>
+
+
+          <div id="contenedor">
+
+                  <a href= "https://wa.me/51950306158?text=Hola! te contacto desde la web Recicloso, deseo info :3" target="_blank">
+                    <button class="btnW"> 
+                    <i id="carritoMenu"  class="fa-brands fa-whatsapp"></i>
+                </button></a> 
+
+ 
+<p><p><br><br>
+                <button class="recicle"> 
+                       <i id="recicle2" class="fa-solid fa-recycle"></i>
+                </button>
+<br>
+
+                <a href="ubicacion.html"><button class="ubicaciones"> 
+                       <i id="ubicacioncita" class="fa-solid fa-location-dot"></i></a>
+                </button>
+                <p>
+
+                  <div class="ax">
+                  <a href="calendar.html"><button class="cronos"> 
+                     <i id="ubicacioncita" class="fa-solid fa-calendar-days"></i></a>
+ 
+        </DIV>
+
+                          <div class="axx">
+                <button class="loguito"> 
+                     <img width="72%"  align="center"  src="m/iso.png"/>
+<br></DIV>
+       <div class="plataforma">
+<i>Transformamos residuos en valor a través de diseño, educación y cultura ♡  </i>
+                     </div>
+</DIV>
+        </DIV></DIV>
+
+ 
+  <DIV class="CONTENEDORGENERAL">    
+
+   <DIV class="cuadrado"> 
+<a href="acerca.html"><BUTTon class="cua0">ACERCA</BUTTon></a>
+  </DIV>
+<DIV class="cuadrado">
+  <a href="contenedores.html"><BUTTon class="cua1">CONTENEDORES <BR>PARA RECICLAJE</BUTTon></a>
+</DIV>
+      <DIV class="cuadrado">
+  <a href="talleres.html"><BUTTon class="cua2">TALLERES</BUTTon></a>
+</DIV>      
+      <DIV class="cuadrado">
+  <a href="activaciones.html"><BUTTon class="cua3">ACTIVACIONES</BUTTon></a>
+</DIV>      
+      <DIV class="cuadrado">
+  <a href="plastico.html"><BUTTon class="cua4">PLASTICO RECICLADO</BUTTon></a>
+</DIV> 
+      <DIV class="cuadrade">
+  <a href="especiales.html"><BUTTon class="cua5">ENCARGOS ESPECIALES</BUTTon></a>
+</DIV> 
+
+</div>
+
+<div class="textocen"><h6> Partimos de un contexto donde los residuos se acumulan y pierden su valor.
+   Frente a ello, activamos el juego y la exploración como motores para potenciarlos, convirtiéndolos en materia prima,
+    productos y experiencias,  generando así transformaciones materiales y culturales.
+</h6></div>
+
+<DIV class="viruta2">
+  <div class="blanco"></div>
+ 
+  <div class="ambiental">
+    <b>IMPACTO AMBIENTAL </b><BR></BR>
+  +40tn Residuos recuperados a través de sistemas de contenedores.<BR>
+  +300kg plástico transformado en nuevos productos.<BR>
+  +50kg papel convertido en libretas, fanzines y retratos.<BR>
+  +300 costalillos de arroz reutilizadas en activaciones y merch.<BR>
+  +200 bolsas plásticas reutilizas en activaciones, talleres y merch.<BR>
+<BR></BR>
+    <b>IMPACTO CULTURAL </b><BR></BR>
+  + 500 participantes en talleres de arte+ educación ambiental<BR>
+  +4500 asistentes en activaciones.<BR>
+  +30 veces se infló el Bolo uwu<BR>
+  +9 veces estuvimos en ferias y festivales. <BR>
+  +3 veces implementamos nuestros contenedores en eventos y espacios públicos.
+
+ </div>
+ <div class="blanco2"></div>
+  <div class="impactado"> </div>
+     </div>
+
+<DIV class="largo">           <!-- :::::disfrutemos xxxx:::::::::--> 
+ <button class="comprasonline">
+
+  <MARQUee id="blanquito" behavior="scroll"  DIRECTION="left"> 
+    ° <i class="fa-solid fa-recycle"></i> Disfrutemos el proceso de ser divertidamente responsables <i class="fa-solid fa-recycle"></i>
+    °</MARQUee> <br><br><br><br>
+    <MARQUee id="blanquito" behavior="alternate"  DIRECTION="left"> 
+     °Disfrutemos el proceso de ser divertidamente responsables°</MARQUee><br><br><br>
+</button>
+</div>
+ <!-- :::::inicio bloque productos::::::::--> 
+
+  <div class="productosnuevos">
+     <div class="circo"></div><div class="circo2"></div>  <!-- :::::blonditas: :::::::--> 
+      <div class="o"><!-- :::::rocos: :::::::--> 
+          <button class="o11">    <a href=""> <div class="loquiero"> Lo quiero </div> </a>
+             </button>
+       </div>
+       <div class="o">
+        <button class="o12"> <a href=""><div class="loquiero"> Lo quiero </div>  </a>
+          
+        </button></a>
+        </div>
+        <div class="oo">
+        <button class="o13">    <a href=""></a><div class="loquiero"> Lo quiero </div>   </a>       
+          </button></a>
+          </div>
+    </div>
+
+  </section>
+<DIV class="largo">          <!-- :::::reimagina::::::::--> 
+  <button class="comprasonline">
+    <MARQUee id="blanquito" behavior="scroll"  DIRECTION="left"> 
+      ° Reimagina el futuro
+      °°</MARQUee> <br><br><br><br>
+      <MARQUee id="blanquito" behavior="alternate"  DIRECTION="left"> 
+        °° Reimagina el futuro
+        °°</MARQUee><br><br><br>
+  </button>
+
+</DIV> 
+
+
+<div class="bloggg">
+  <div  class="o">
+       <button class="o14">
+        <iframe  src="3.html" 
+        frameborder="0" ></iframe>
+        </button>
+   </div>
+   <div class="o">
+    <button   class="o14">
+      <iframe  src="2.html" 
+      frameborder="0" ></iframe>
+    </button>
+    </div>
+    
+    <div class="oo">
+    <button   class="o14">
+      <iframe   src="1.html" 
+      frameborder="0"></iframe>
+    </button>
+    </div>
+</div>
+
+</body>
+
+<footer>
+
+  <div  class="franjo"> 
+    <div class="divo0">
+    <button id="divooo1" class="o14"><h1>◀</h1></button> 
+  </div>
+      <div class="divo0">
+    <button id="divooo" class="o14"><h1>  BLOG  </h1></button> 
+  </div>
+        <div class="divo2">
+    <button id="divooo2" class="o14"><h1>▶</h1><a href="#"></a></button> 
+  </div>
+    </div>
+
+          <div class="marcas"> <BR></BR>
+            <b> ACTIVAMOS LA CIUDAD DESDE EL ARTE, EL JUEGO Y LA SOSTENIBILIDAD</b><br> <br> 
+            Hemos colaborando con organizaciones, marcas e instituciones en distintos territorios y contextos culturales.  Estos son alguno de ellos:
+             
+            <BR><BR>
+
+            <img  src="m/logosinstituciones.png"/> 
+ </div>
+
+ 
+  <div class="unn"><h6 align="center"> xxxxxxxxxxx </h6></div>
+  <div class="dosss"><br><br><br> <h6 align="center" > 1</h6></div>
+  <div class="dosss"><br><br><br> <h6 align="center" >2</h6></div>
+  <div class="dosss"><br><br><br>  <h6 align="center" > 3</h6></div>
+ </button>
+
+  </div>
+ <div class="contacto"> <br><br><br>
+<img   src="m/ods.png">
+ <br><br><br>
+<br><br><br><br><br><br>
+contacto: proyecto.recicloso@gmail.com
+   </div>
+ 
+
+
+           
+                        <div class="superr"><button class="redred">
+                            <div class="redes">
+                            <div  class="red">
+                            <a href="https://www.tiktok.com/@recicloso" target="_blank"><img  height="100%" src="m/tik.png"/></a>
+                          </div>
+
+                          <div  class="red">
+                            <a href="https://www.instagram.com/recicloso/" target="_blank"><img  height="100%" src="m/ig.png"/></a>
+                          </div>
+                          <div class="red">
+                            <a href="https://www.facebook.com/recicloso.o/" target="_blank"><img  height="100%" src="m/facebook.png"/></a>
+                          </div>
+                          <div  class="red">
+                            <a href="https://www.linkedin.com/in/proyecto-recicloso-155871252/" target="_blank"><img  height="100%" src="m/link.png"/></a>
+                          </div>
+ 
+
+                        </button>
+                     
+                        </div>    
+
+     </div>  
+                  <div id="finalo" class="yeye">                   
+                     <i class="fa-regular fa-face-smile"></i> aliados + amiguis <i class="fa-regular fa-face-smile"></i>                 
+                  </div>
+
+                  <div class="franjanueva"> 
+                    <button id="rocos" class="b1"><img src="m/rocos.png"> </button>
+                    <button class="b1"></button>
+                    
+                    <button id="drikis" class="b1"><img src="m/losdrikis.png" alt=""></button>
+                    <button class="b1"></button> 
+                    <button id="larex" class="b1"><img src="m/larex.png" alt=""> </button>
+                     <button class="b1"></button> 
+                 
+                    <button id="colitas" class="b1"> aki ong voluntariado</button>
+                      <button class="b1"></button> 
+                    <button id="chez" class="b1"><img src="m/chez.png" alt=""></button> 
+                    <button id="win" class="b1"><img src="m/win.png" alt=""></button> 
+                    <button class="b1"></button>
+                    <button id="gestar" class="b1"><img src="m/gestar.png" alt=""></button>
+                
+                  </div>
+
+                  <div id="finali" class="yeye">
+                  
+                    ::||°°°°°° △ °°°°°°° :: Recicloso 000 :°°°°°°°°°°°° 000: 000000000 △ △ + ++ Lima - Perú 2026 + ::: +
+              
+                  </div>
+
+  </footer>
+
+
+</html>
