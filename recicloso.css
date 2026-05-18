@@ -1298,9 +1298,12 @@ margin-left: 4px;
 /*///////////////////////////////////////////400/////////////*/
   @media (max-width:400px){ 
 
+.impactado{
+margin-top:-620px;
 
+}
 .ambiental{
-margin-top: 100px;
+margin-top: 90px;
 }
 
 
