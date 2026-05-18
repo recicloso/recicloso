@@ -182,7 +182,7 @@ color: white
     width: 12px;
     height: 12px;
     border: none;
-    border-radius: 50%;
+    border-radius: 60%;
     background: white;
     opacity: .6;
     cursor: pointer;
@@ -418,6 +418,7 @@ transform: translateY(13%);
  }
    .cua0{
     background-color: #ffffff;
+    color: rgb(34, 34, 34);
    width: 100%;
    height: 100%;
    border-top: none;
@@ -435,6 +436,7 @@ transform: translateY(13%);
  
     .cua1{
       background-color: #ffffff;
+      color: rgb(34, 34, 34);
    width: 100%;
    height: 100%;
    border-left: none;
@@ -452,6 +454,7 @@ transform: translateY(13%);
  }
      .cua2{
       background-color: #ffffff;
+      color: rgb(34, 34, 34);
    width: 100%;
    height: 100%;
    border-left: none;
@@ -469,6 +472,7 @@ transform: translateY(13%);
  }
      .cua3{
       background-color: #ffffff;
+      color: rgb(34, 34, 34);
    width: 100%;
    height: 100%;
    border-left: none;
@@ -485,6 +489,7 @@ transform: translateY(13%);
  }
       .cua4{
         background-color: #ffffff;
+        color: rgb(34, 34, 34);
    width: 100%;
    height: 100%;
    border-left: none;
@@ -502,6 +507,7 @@ transform: translateY(13%);
  }
        .cua5{
         background-color: #ffffff;
+        color: rgb(34, 34, 34);
    width: 100%;
    height: 100%;
    border-left: none;
@@ -571,11 +577,11 @@ float: left;
 .textocen{ /*partimos en un ...*/
   background-color:rgb(255, 255, 255);
  width: 100%;
- height: 90px;
+ height: 110px;
  margin-top: 0px;
 }
 .viruta2{
-          background-image:linear-gradient(rgba(0, 0, 0, 0.553),rgba(0, 0, 0, 0.813)),  url(m/viruta2.gif);
+          background-image:linear-gradient(rgba(0, 0, 0, 0.553),rgba(0, 0, 0, 0.813)),  url(m/viruta4.gif);
           background-size: cover;
           background-position: center;
           width: 100%;
@@ -773,10 +779,12 @@ width: 100%;
     }
       #divooo1{
     background-color: #0037ff98;
+    color: #202020;
     cursor: pointer;
     }
       #divooo2{
     background-color: #0037ff98;
+    color: #202020;
     cursor: pointer;
     }
 .franjanueva{
@@ -787,6 +795,7 @@ width: 100%;
 
  .b1{ /*/ todos /*/
   background-color:#2b2b2b;
+  border-color: white;
   width: 8.333%;
   height: 100%;
   float: left;
@@ -887,6 +896,7 @@ height: 100%;
 border-top: none;
 border-left: none;
 border-right: none;
+border-color: white;
 
 }
 
@@ -967,14 +977,14 @@ margin-top: -75px;
 margin-top: 10%;
  }
   #chez img{
-  width: 90%;
+  width: 70%;
 }
  #win img{
   margin-top: 2%;
   width: 80%;
 }
  #larex img{
-  width: 90%;
+  width: 80%;
 }
  #drikis img{
   width: 95%;
@@ -1066,8 +1076,9 @@ margin-left: 5px;
  width: 15%;
 }
 .plataforma{
-  margin-top: -85px;
+  margin-top: -100px;
   width: 70%;
+  font-size: 16px;
   } 
  .contacto img{
   width: 70%;
@@ -1081,10 +1092,31 @@ margin-left: 5px;
  #carritoMenu{
  font-size: 35px;
  }
-.recicle, .ubicaciones, .cronos, .loguito{
-  margin-left: 3px;
+.recicle{
+  margin-left: -5px;
+  margin-top: 300px;
  }
+.ubicaciones{
+  margin-left: -5px;
+  margin-top: -18px;
+ }
+ .cronos{
+   margin-left: -5px;
+  margin-top: -25px;
+ }
+.loguito{
+ width: 55px;
+ height: 55px;
+ margin-left: 5px;
+ margin-top: -10px;
+   }
 
+ #ubicacioncita{
+  font-size: 35px;
+}
+ #recicle2{
+  font-size: 35px;
+}
 .container-menu{
   margin-top: 110px;
   background-color:#f461ff;
@@ -1092,6 +1124,24 @@ margin-left: 5px;
  .cont-menu nav a{
   font-size: 21px;
   }
+ .slidero{
+    height: 600px;
+    
+ }
+.container{
+    height: 600px;
+}
+.slider-wrapper{
+    height: 600px;
+}
+.slider{
+    height: 600px;
+}
+.slider img{
+    height:600px;
+}
+
+
 .CONTENEDORGENERAL{
   height: 426px;  /*/ son 6 botones aprox a 71px cada uno/*/
  }
@@ -1104,7 +1154,7 @@ margin-left: 5px;
   font-size: 17px;
  }
 .textocen{ /*partimos en un ...*/
- height: 135px;
+ height: 180px;
 }
 
 .blanco, .blanco2{
@@ -1113,16 +1163,16 @@ margin-left: 5px;
 }
 
 .impactado{
- background-size: 35%;
+ background-size: 28%;
  background-position: center;
  width:100%;
 margin-left:0px;
-margin-top:-630px;
+margin-top:-600px;
 
 }
 .ambiental{
 width: 90%;
-margin-top: 180px;
+margin-top: 140px;
 margin-left: 5%;
 }
 
@@ -1220,19 +1270,11 @@ margin-left: 4px;
 
 
 .plataforma{
-  margin-top: -90px;
+  margin-top: -110px;
   margin-left: 25%;
   width: 70%;
+   font-size: 12px;
   } 
-.impactado{
-margin-top:-620px;
-
-}
-.ambiental{
-margin-top: 135px;
-font-size: 14px;
-
-}
 
 
 .loquiero{
@@ -1256,13 +1298,12 @@ font-size: 14px;
 /*///////////////////////////////////////////400/////////////*/
   @media (max-width:400px){ 
 
-.impactado{
-margin-top:-600px;
 
-}
 .ambiental{
-margin-top: 105px;
+margin-top: 100px;
 }
+
+
 .circo, .circo2{
          height: 5.2%;
        }
@@ -1271,6 +1312,9 @@ margin-top: 105px;
   }   
 
 }
+
+
+
 
 
 
