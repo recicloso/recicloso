@@ -195,8 +195,10 @@ color: white
      padding: 0;
     margin: 0;
 
-      box-sizing: border-box;
- flex: 0 0 12px;
+ display: block;
+    flex: none;
+
+    transform: none;
     }
 
 .slider-nav button:hover{
