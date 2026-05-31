@@ -181,11 +181,18 @@ color: white
 .slider-nav button{
     width: 12px;
     height: 12px;
+    min-width: 12px;
+    min-height: 12px;
     border: none;
-    border-radius: 60%;
+    border-radius: 50%;
     background: white;
     opacity: .6;
     cursor: pointer;
+
+    appearance: none;
+    -webkit-appearance: none;
+
+    flex-shrink: 0;
     }
 
 .slider-nav button:hover{
