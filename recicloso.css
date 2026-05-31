@@ -192,7 +192,8 @@ color: white
     appearance: none;
     -webkit-appearance: none;
 
-    flex-shrink: 0;
+     padding: 0;
+    margin: 0;
     }
 
 .slider-nav button:hover{
