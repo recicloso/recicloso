@@ -2,6 +2,7 @@ body{
   padding:0%;
   margin: 0%;
   overflow-y: hidden;
+
 }
 button{
   border-color: #2d2d2d;
@@ -122,6 +123,21 @@ color: white
    position: relative;
     
  }
+
+ #calendario{
+background-color:#242424;
+
+  }
+.agenda{
+   width: 60%;
+  height:80%;
+  margin-top: 3%;
+  margin-left: 20%;
+position: absolute;
+ }
+.calendar-wrapper iframe {
+  border-radius: 20px;
+}
 .container{
   padding-top: 100px;
     position: absolute;
@@ -265,6 +281,11 @@ cursor:pointer;
   position: relative;
   z-index: 2;
  }
+  .loguito:hover{
+scale: 1.2;
+cursor:pointer;
+}
+
 .recicle{
   background-color: rgba(255, 0, 234, 0);
   margin-top: 280px;
@@ -282,6 +303,10 @@ cursor:pointer;
   z-index: 2;
 
  }
+   .recicle:hover{
+scale: 1.2;
+cursor:pointer;
+}
 
 .ubicaciones{
   background-color: rgba(255, 84, 241, 0);
@@ -333,7 +358,7 @@ cursor:pointer;
   position: absolute;
   margin-top: 120px;
   padding-top: 15px;
-  background-color:#f461ffe7; 
+  background-color:#f461ffdc;
   width: 15%;
   height: 100vh;
   top: 0px; right: 0;
@@ -909,9 +934,7 @@ width: 100%;
    scrollbar-width:none;
 }
 
-.testimonies-slider::-webkit-scrollbar{
-   display:none;
-}
+
 
 .dosss{
    flex:0 0 33.333%;
@@ -1485,3 +1508,8 @@ margin-top: 80px;
   }   
 
 }
+
+
+
+
+
